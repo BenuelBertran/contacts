@@ -2,6 +2,10 @@ p {
   margin: 0;
 }
 
+img {
+  display: inline-block;
+}
+
 .contacts__wrapper {
   width: 300px;
   margin-top: 100px;
