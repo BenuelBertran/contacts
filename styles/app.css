@@ -1,16 +1,14 @@
+body {
+  overflow-y: scroll;
+}
+
 p {
   margin: 0;
 }
 
-img {
-  display: inline-block;
-}
-
 .contacts__wrapper {
   width: 300px;
-  margin-top: 100px;
-/*  margin: 100px auto 0;*/
-  margin-left: 550px;
+  margin: 100px auto 0;
 }
 
 .contacts__search {
@@ -26,7 +24,7 @@ img {
 
 .contact {
   font-family: sans-serif;
-  width: 300px;;
+  width: 100%;
   padding: 5px;
   border-bottom: 1px dotted grey;
   list-style: none;
@@ -57,7 +55,7 @@ img {
 
 .contact__btn {
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 
   opacity: 0.8;
 }
 
